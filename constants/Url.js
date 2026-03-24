@@ -5,5 +5,5 @@ const Url = {
     GET_ARTICLE_BY_ID: `${baseUrl}/api/sneakers/detail/`
 }
 
-export default Url
+export default Url;
 

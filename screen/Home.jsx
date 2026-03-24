@@ -51,6 +51,7 @@ export default function Home({navigation}) {
                 navigation.navigate('Detail', {article_id: item.id} )
             }}
         >
+        
             <Image
                 source={{uri: item.picture[0]?.pic1}}
                 style={itemStyle.image}
